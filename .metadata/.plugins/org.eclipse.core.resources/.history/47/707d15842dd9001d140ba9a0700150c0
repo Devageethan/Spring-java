@@ -1,0 +1,7 @@
+package language;
+
+public class Tamil implements Language{
+public void speak() {
+	System.out.println("i can speak tamil");
+}
+}

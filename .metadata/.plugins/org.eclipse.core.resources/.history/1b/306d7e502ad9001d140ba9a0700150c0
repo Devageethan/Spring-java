@@ -1,0 +1,12 @@
+package heart;
+
+import org.springframework.context.annotation.Primary;
+import org.springframework.stereotype.Component;
+
+@Component
+@Primary
+public class Heart {
+void alive() {
+	System.out.println("heart is alive");
+}
+}

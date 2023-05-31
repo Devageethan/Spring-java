@@ -1,0 +1,10 @@
+package language;
+
+public class Malayalam implements Language{
+
+	public void speak() {
+		System.out.println("i can speak malayalam");
+		
+	}
+
+}

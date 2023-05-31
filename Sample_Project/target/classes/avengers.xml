@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+    
+    <bean class="avengers.Avengers" name="avengers" p:id="1">
+    	<property name="names">
+    		<list>
+    		<value>CAPTAIN AMERICA</value>
+    		<value>THOR</value>
+    		<value>IRON MAN</value>
+    		<value>THANOS</value>
+    		
+    		</list>
+    	</property>
+    	
+    	<property name="powers">
+    	<set>
+    		<value>Strong power</value>
+    		<value>Thunder</value>
+    		<value>Iron siut</value>
+    		<value>Blade</value>
+    	
+    	</set>
+    	
+    	</property>
+    
+    <property name="weapons">
+    <map>
+    	<entry key="1" value="Sheild"></entry>
+    	<entry key="2" value="Axe"></entry>
+    	<entry key="3" value="Iron Suit"></entry>
+    	<entry key="4" value="Stones"> </entry>
+    
+    </map>
+    
+    </property>
+    
+    </bean>
+    
+    </beans>

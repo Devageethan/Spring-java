@@ -1,0 +1,10 @@
+package bank;
+
+public class Saving {
+public void deposit() {
+	System.out.println("cas has been deposited in saving account");
+}
+public void withdraw() {
+	System.out.println("cas was withdraw in saving account");
+}
+}

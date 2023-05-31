@@ -1,0 +1,7 @@
+package autowired;
+
+public class Heart {
+ public void alive() {
+	System.out.println("heart is alive");
+}
+}

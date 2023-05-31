@@ -1,0 +1,13 @@
+package bank;
+
+import org.springframework.stereotype.Component;
+
+@Component
+public class Current implements Account {
+public void deposit() {
+	System.out.println("cas was deposited in current account");
+}
+public void withdraw() {
+	System.out.println("cas was withdraw in current account ");
+}
+}

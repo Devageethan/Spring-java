@@ -1,0 +1,16 @@
+package bank;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Component;
+
+@Component
+public class Customer {
+@Autowired
+private Account account;
+void deposit() {
+	account.deposit();
+}
+void withdraw() {
+	account.withdraw();
+}
+}

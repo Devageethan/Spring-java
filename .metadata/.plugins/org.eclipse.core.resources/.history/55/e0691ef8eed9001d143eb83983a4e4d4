@@ -1,0 +1,15 @@
+package bank;
+
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+@Component
+
+public class Saving implements Account{
+public void deposit() {
+	System.out.println("cas has been deposited in saving account");
+}
+public void withdraw() {
+	System.out.println("cas was withdraw in saving account");
+}
+}

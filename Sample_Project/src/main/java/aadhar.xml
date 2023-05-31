@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+	xmlns:context="http://www.springframework.org/schema/context"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans
+    http://www.springframework.org/schema/beans/spring-beans.xsd
+    http://www.springframework.org/schema/context
+    http://www.springframework.org/schema/context/spring-context.xsd">
+    
+    <bean  class="referance_type.Aadharcard"   name="aa">
+    <property name="cardnum" >
+   		<value>21366@EWQ</value>
+    </property>
+   
+    
+    </bean>
+    
+    <bean  class="referance_type.Person"  name="refer" >
+    <property name="name">
+    <value>Devageethan P</value>
+    </property>
+    <property name="a" ref="aa">
+    </property>
+    
+    
+    
+    
+    </bean>
+    
+    
+    
+    
+    
+    
+    
+    
+</beans>

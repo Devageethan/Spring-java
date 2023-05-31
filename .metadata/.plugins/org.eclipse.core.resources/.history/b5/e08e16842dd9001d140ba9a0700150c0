@@ -1,0 +1,10 @@
+package language;
+
+public class Kannada implements Language {
+
+	public void speak() {
+	System.out.println("i can speak Kannada");
+		
+	}
+
+}
